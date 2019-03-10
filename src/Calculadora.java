@@ -39,4 +39,11 @@ public class Calculadora {
     public static void muestraNum (double num){
         System.out.println(num);
     }
+    
+    public static void mostrarSigno (double num){
+        if (num<0){
+           System.out.println("Es negativo"); 
+        }
+        else System.out.println("Positivo"); 
 }
+    
