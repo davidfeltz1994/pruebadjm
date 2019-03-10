@@ -36,4 +36,7 @@ public class Calculadora {
         return Math.sqrt(num);
 
     }  //Cierre del método
+    public static void muestraNum (double num){
+        System.out.println(num);
+    }
 }
